@@ -43,7 +43,10 @@ for (let i = 1; i <= 10; i++) {
 }
 */
 // SKRIV UNDER HER
-
+const number = 7;
+for (let i =1; i<=10;i++){
+console.log(`${number} x ${i}=${number* i}`);
+}
 /*
 //OPPGAVE.3, forEach
 
@@ -60,7 +63,15 @@ shoppingList.forEach((item) => {
 });
 */
 // SKRIV UNDER HER
-
+let shoppingList =["milk","bred","fish","egg"];
+shoppingList.forEach((item)=> {
+  console.log(item) ;
+})
+shoppingList.forEach((item)=>{
+  let newElement = document.createElement(h1);
+  newElement.textContent = item;
+  document.body.appendChild(newElement);
+})
 /*
 //OPPGAVE.4, map
 
@@ -78,4 +89,6 @@ console.log(doubled);
 console.log(numbers);
 */
 // SKRIV UNDER HER
+const numbers = [1,2,3];
+
 

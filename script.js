@@ -68,7 +68,7 @@ shoppingList.forEach((item)=> {
   console.log(item) ;
 })
 shoppingList.forEach((item)=>{
-  let newElement = document.createElement(h1);
+  let newElement = document.createElement("h1");
   newElement.textContent = item;
   document.body.appendChild(newElement);
 })

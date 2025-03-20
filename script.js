@@ -18,6 +18,8 @@ console.log('Blast off!');
 */
 // SKRIV UNDER HER
 
+
+
 /*
 //OPPGAVE.2, For loop
 1. Gå til linje utenfor kommentar og skriv av for loopen, 
@@ -34,6 +36,15 @@ for (let i = 1; i <= 10; i++) {
 }
 */
 // SKRIV UNDER HER
+let countdown = 0;
+
+while (countdown < 10) {
+  console.log(`Countdown: ${countdown}`);
+  countdown--;
+}
+
+console.log('Blast off!');
+
 
 /*
 //OPPGAVE.3, forEach
@@ -69,3 +80,4 @@ console.log(doubled);
 console.log(numbers);
 */
 // SKRIV UNDER HER
+

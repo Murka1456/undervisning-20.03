@@ -17,7 +17,14 @@ while (countdown > 0) {
 console.log('Blast off!');
 */
 // SKRIV UNDER HER
+let countdown = 0;
 
+while (countdown < 10) {
+  console.log(`Countdown: ${countdown}`);
+  countdown++;
+}
+
+console.log('Blast off!');
 
 
 /*
@@ -36,15 +43,6 @@ for (let i = 1; i <= 10; i++) {
 }
 */
 // SKRIV UNDER HER
-let countdown = 0;
-
-while (countdown < 10) {
-  console.log(`Countdown: ${countdown}`);
-  countdown--;
-}
-
-console.log('Blast off!');
-
 
 /*
 //OPPGAVE.3, forEach

@@ -90,9 +90,14 @@ console.log(numbers);
 */
 // SKRIV UNDER HER
 const numbers = [1,2,3];
-const doubled = numbers.map((number => number * 2);
-console.log(doubled);
-console.log(numbers);
-)
+const doubled = numbers.map((number) => number * 2);
+console.log(" doubleArray" + doubled);
+console.log("original Array" + numbers);
+
+let person = {
+  name: "Anders",
+  age: 38
+}
+console.log(person);
 
 
